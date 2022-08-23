@@ -25,9 +25,7 @@ with open(f'{file_name}\Article_text.txt', 'r+', encoding='utf-8') as file:
         for line in lines:
             data = data.replace(line, '')
         
-with open(f'{file_name}\Article_text.txt', 'w+', encoding='utf-8') as file:
-    file.write(data)
-    file.write('Thumbs up to see more articles about interesting things in your feed!')
+
 
     
     
