@@ -20,7 +20,7 @@ with open(f'{file_name}\Article_text.txt', 'w+', encoding='utf-8') as file:
 with open(f'{file_name}\Article_text.txt', 'r+', encoding='utf-8') as file:
     data = file.read()
 
-    with open(r'C:\Users\arsik\OneDrive\Desktop\WebParsing\no_need_data.txt', 'r', encoding='utf-8') as no_need:
+    with open(r'C:\no_need_data.txt', 'r', encoding='utf-8') as no_need:
         lines = no_need.readlines()
         for line in lines:
             data = data.replace(line, '')
